@@ -1,9 +1,7 @@
 name: AutoInspire Daily Post
 
 on:
-  schedule:
-    - cron: "0 2 * * *"  # Every day at 7:30 AM IST (adjust as needed)
-  workflow_dispatch:
+
 
 jobs:
   post-quote:
